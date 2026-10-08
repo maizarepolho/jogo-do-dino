@@ -1,0 +1,25 @@
+/* ═══ Jogo do Dino — estilos ═══ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: system-ui, sans-serif;
+background: rgb(16, 109, 230); /* muda a cor do fundo */
+color: #1a1a18; /* muda a cor da letra */
+min-height: 100vh;
+padding: 2rem 1rem;
+}
+.app { max-width: 600px; margin: 0 auto; }
+/* Header */
+.header { display: flex; align-items: center; gap: 10px; margin-bottom:
+    1.5rem; }
+    .header h1 { font-size: 22px; font-weight: 500; }
+    .secret-btn {
+    background: #ebebea;
+    border: 0.5px solid #ccc;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 12px;
+    color: #888;
+    cursor: pointer;
+    }
+    .secret-btn:hover { color: #555; }
+    
